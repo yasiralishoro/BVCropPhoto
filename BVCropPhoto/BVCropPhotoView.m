@@ -46,7 +46,7 @@
 
         UIView *overlayView = ({
             UIImageView *imageView = [[UIImageView alloc] init];
-            imageView.contentMode = UIViewContentModeCenter;
+            imageView.contentMode = UIViewContentModeScaleAspectFit;
             imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
             imageView;
         });
